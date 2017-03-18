@@ -149,7 +149,6 @@ def towards(p1, p2):
 
 def conflict(walk, point, sight, comingFrom=None):
     """Detects if the given point can collide with the walk."""
-    # TODO : change conflict...
     directions = initDir(comingFrom)
     conf = False
     if sight > 0:
